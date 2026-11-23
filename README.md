@@ -1,4 +1,4 @@
-# ⚡ DevPulse CLI
+# âš¡ DevPulse CLI
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square)
 ![Dependencies](https://img.shields.io/badge/Dependencies-Zero-brightgreen?style=flat-square)
@@ -10,18 +10,18 @@ A hardened, **zero-dependency** command-line toolkit for auditing local developm
 
 ---
 
-## 🛡️ Security-First Design
-- **Zero External Packages:** 100% Python standard library — eliminates third-party supply-chain risk.
+## ðŸ›¡ï¸ Security-First Design
+- **Zero External Packages:** 100% Python standard library â€” eliminates third-party supply-chain risk.
 - **AST Static Gatekeeper:** Every plugin is inspected via Python's `ast` module before loading, blocking `eval`, `exec`, `pickle`, `os.system`, and `shell=True`.
 - **Loopback Protection:** Port scanning defaults strictly to `127.0.0.1` unless `--allow-remote` is explicitly specified.
 - **Cross-Platform CI:** Automated unit and security boundary tests run on Linux, Windows, and macOS on every Pull Request.
 
 ---
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/devpulse-cli.git](https://github.com/YOUR_USERNAME/devpulse-cli.git)
+git clone [https://github.com/phantom-mbx1/devpulse-cli.git](https://github.com/phantom-mbx1/devpulse-cli.git)
 cd devpulse-cli
 
 # 1. Concurrently scan local dev & database ports
