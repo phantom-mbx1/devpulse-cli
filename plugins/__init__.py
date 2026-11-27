@@ -10,6 +10,7 @@ Every plugin module placed in this directory must implement:
 from __future__ import annotations
 
 __all__ = [
+    "cache_audit",
     "env_guard",
     "git_health",
     "net_diag",
